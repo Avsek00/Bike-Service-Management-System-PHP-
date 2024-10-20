@@ -1,0 +1,185 @@
+Reset default browser styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('images/ThanitApril_58.jpg') no-repeat center center fixed;
+    background-size: cover; /* Cover the entire background */
+    height: 100vh; /* Set the body height to the full viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the navigation bar */
+.navbar {
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Align to the top of the viewport */
+    background-color: #0053B9;
+    color: #fff;
+    padding: 5px 0;
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.logo-img {
+    width: 70px;
+    height: auto;
+}
+
+.logotitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-img + .logotitle {
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #39FF14;
+}
+
+/* Hero Section */
+.hero-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 100px 20px;
+}
+
+.hero-title-wrapper {
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+
+.hero-motto {
+    font-size: 25px;
+    margin-bottom: 40px; 
+}
+
+.service-request-btn,
+.check-status-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.service-request-btn:hover,
+.check-status-btn:hover {
+    background-color: #f2b200;
+}
+
+/* Services Section */
+.services-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.service-display {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.service-display h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.service-display p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center; /* Center align content */
+    width: 100%; /* Full width */
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+.footer-container {
+    max-width: 1200px; /* Limit width of content */
+    margin: auto; /* Center content horizontally */
+}
+
+.footer p {
+    font-size: 16px; /* Preferred font size */
+    margin-bottom: 10px; /* Add space below the paragraph */
+}
+
+.footer ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.footer ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add space between list items */
+}
+
+.footer ul li:last-child {
+    margin-right: 0; /* Remove margin from last list item */
+}
+
+.footer ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color */
+    font-size: 16px; /* Preferred font size */
+}
+
+.footer ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
